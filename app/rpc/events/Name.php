@@ -7,7 +7,7 @@ namespace app\rpc\events;
 
 
 /**
- * Class Name
+ * Class RpcCbName
  * @property string $masterInit
  * @property string $masterStart
  * @property string $masterShutdown

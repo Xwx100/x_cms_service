@@ -22,6 +22,7 @@ class MyRpcDispatcher extends Dispatcher
         $args = func_get_args();
         $this->addEventBefore(...$args);
 
+        // xu.以下要实时拷贝封装的方法
         try {
             switch (true) {
                 case $data instanceof File:

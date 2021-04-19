@@ -16,7 +16,7 @@ class MyRpcManager extends RpcManager
     // 新增 接收信息回调事件
     public function onReceive(Server $server, $fd, $reactorId, $data)
     {
-        $this->addEvent(...func_get_args());
+//        $this->addEvent(...func_get_args());
         parent::onReceive($server, $fd, $reactorId, $data);
     }
 
