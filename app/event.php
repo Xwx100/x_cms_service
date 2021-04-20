@@ -13,6 +13,5 @@ return [
     ],
 
     'subscribe' => [
-        \app\rpc\events\Index::class
     ],
 ];

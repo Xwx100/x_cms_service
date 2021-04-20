@@ -22,10 +22,7 @@
     "require": {
         "php": ">=7.1.0",
         "topthink/framework": "^6.0.0",
-        "topthink/think-orm": "^2.0",
-        "topthink/think-swoole": "^3.0",
-        "xu/helper": "dev-master",
-        "xu/tp6": "dev-master"
+        "topthink/think-orm": "^2.0"
     },
     "require-dev": {
         "symfony/var-dumper": "^4.2",
@@ -47,11 +44,5 @@
             "@php think service:discover",
             "@php think vendor:publish"
         ]
-    },
-    "repositories": {
-        "local": {
-            "type": "path",
-            "url": "./vendor/xu/*"
-        }
     }
 }
